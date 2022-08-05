@@ -2,7 +2,7 @@ const path = require('path');
 const fs = require('fs');
 const { exec } = require('child_process');
 
-const baseRoot = path.resolve(__dirname, '..');
+const baseRoot = __dirname;
 const baseGit = path.resolve(baseRoot, '.git');
 
 const hasGit = (() => {
