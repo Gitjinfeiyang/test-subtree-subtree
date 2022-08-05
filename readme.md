@@ -1,5 +1,3 @@
 # Subtree
 
-test
-
-from subtree
+from sub
